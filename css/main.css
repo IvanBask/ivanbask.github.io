@@ -1,38 +1,29 @@
 body {
-    font: 14px Georgia, Times, serif;
-    color: white;
+    font: 14px Verdana, Arial, Helvetica, sans-serif;
+    color:
+        white;
     background-color: black;
+    margin-top: lOpx;
 }
 
-h1 {
-    font: 22px Arial, Helvetica, sans-serif;
-    color: #ccc;
-    background-color: black;
-    text-trans form: lowercase, -
+h1,  {
+    font-size: 24px;
+    color: orange;
+    border-bottom: 2px dotted lime;
+    padding-bottom: lOpx;
 }
 
 h2 {
     font: italic 20px Georgia, Times, serif;
-    color: #ccc, - background-color: black;
-    text-transform: lowercase;
+    color: #ccc text-indent: 15px;
 }
 
-a {
-    color: orange;
-}
 
-a:link {
-    color: orange;
-}
 
-a:visited {
-    color: yellow;
-}
-
-a:hover {
-    color: fuchsia;
-}
-
-a:active {
-    color: red;
+p  {
+    border: thin solid orange;
+    padding-top: 15px;
+    padding-right:30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
 }
