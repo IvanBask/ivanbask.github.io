@@ -1,0 +1,38 @@
+body {
+    font: 14px Georgia, Times, serif;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font: 22px Arial, Helvetica, sans-serif;
+    color: #ccc;
+    background-color: black;
+    text-trans form: lowercase, -
+}
+
+h2 {
+    font: italic 20px Georgia, Times, serif;
+    color: #ccc, - background-color: black;
+    text-transform: lowercase;
+}
+
+a {
+    color: orange;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
+a:active {
+    color: red;
+}
