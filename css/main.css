@@ -21,7 +21,7 @@ h2 {
 
 
 p   {
-    border: thin solid orange;
+    border-bottom: 2px dotted lime;
     padding-top: 15px;
     padding-right:30px;
     padding-bottom: 15px;
