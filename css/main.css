@@ -14,9 +14,9 @@ h1  {
 }
 
 h2 {
-    font: italic 20px Georgia, Times, serif;
-    color: #ccc text-indent: 15px;
-}
+    font: italic 20px  Times, serif;
+    color: #ccc;   text-indent: 15px;
+   }
 
 
 
@@ -29,7 +29,7 @@ p   {
 }
 
 
-img, a {
+img, a, h3 {
     
     padding-top: 15px;
     padding-right: 30px;
