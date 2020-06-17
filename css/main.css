@@ -37,11 +37,3 @@ img, a, h3 {
     padding-left: 30px;
 }
 
-#content {
-   position: relative;
-   left: 45px;
-   top: 10px;
-   width: 700px;
-   border: 1px solid red;
-   background-color: #3f3e3e;
-}
