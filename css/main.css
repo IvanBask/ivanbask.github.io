@@ -1,16 +1,65 @@
-body {
-    font: 14px Verdana, Arial, Helvetica, sans-serif;
-    color:
-        white;
-    background-color: black;
-    margin-top: lOpx;
+*{
+margin: 0;
+padding: 0;
+outline: none;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 14px Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    color: rgb(12, 131, 20);
+    background-color: black;
+    margin-top: 10px;
+}
+
+header,
+footer {
+    width: 98%;
+    background-color: antiquewhite;
+    min-height: 50px;
+}
+
+header {
+    border-bottom: 2px solid slategrey;
+   padding: 1%;
+}
+
+footer {
+   border-bottom: 2px solid slategrey;
+   padding: 1%;
+}
+#logo {
+
+    font-size: 2.0em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contact{
+     font-size: 1.5em;
+     font-family: 'Courier New',
+     Courier,
+     monospace;
+}
+
+input[type=text].field{
+    border-radius: 5px;
+    border: 2px springgreen;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+input[type=text].field:focus {
+      border: 2px solid tomato;
+
+}
 h1  {
     font-size: 24px;
     color: orange;
     border-bottom: 2px dotted lime;
-    padding-bottom: lOpx;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -36,4 +85,10 @@ img, a, h3 {
     padding-bottom: 15px;
     padding-left: 30px;
 }
-
+a{
+    color: tomato;
+    
+}
+ a:active {
+     color: slateblue;
+ }
