@@ -52,7 +52,13 @@ h2 {
     padding-left: 30px;
    }
 
+h3{
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
 
+}
 
 p   {
     border-bottom: 2px dotted lime;
@@ -63,7 +69,7 @@ p   {
 }
 
 
-img, a, h3 {
+img, a  {
     
     padding-top: 15px;
     padding-right: 30px;
@@ -130,12 +136,12 @@ padding-bottom: 10px;
      /* Отступы вокруг картинки */
  }
  .episodeGuide-episodeMeta{
-padding-top: 45px;
+padding-top: 30px;
 padding-right:30px;
 padding-bottom: 15px;
 padding-left: 30px;
-margin: 10px;
-border: ;
+margin: 0;
+border: 0;
  }
 
  
