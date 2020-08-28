@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>IvanBasK</title>
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/main.css"
+
+</head>      
+<body>
+
+
+        <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #fc9d22;">
+        <a href="index.html" class="navbar-brand"><img src="img/LogoP2.png"/a> <a class="navbar-brand"
+                href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="info.html">О нас <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Useful
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="helpful.html">Links</a>
+                        <a class="dropdown-item" href="helpful1.html">Web developer development</a>
+                        <a class="dropdown-item" href="helpful3.html">What a front-end developer should be able to</a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="helpful2.html">WEB DEVEIOPER ROADMAP - 2019</a>
+                        <a class="dropdown-item" href="helpful4.html">10 steps to become a top coder.</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Game
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="JS.html">jsSnake</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                     <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Unwind
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                         <a class="dropdown-item" href="Cook.html">Cook</a>
+                         <a class="dropdown-item" href="Cook2.html">Cook-2</a>
+                         <a class="dropdown-item" href="Cook3.html">Cook-3</a>
+
+                        
+                     </div>
+                     </li>
+                
+            </ul>
+
+            <script async src="https://cse.google.com/cse.js?cx=011687958993829899971:spt0vfrmsrf"></script>
+            <div class="gcse-search"></div>
+        </div>
+        
+    </nav>
+    <!--navbar and-->
+<canvas id="canvas" width="400" height="400"></canvas>
+<script src="https://code.jquery.com/jquery-2.1.0.js"> </script>
+ <script>
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var width = canvas.width;
+var height = canvas.height;
+var blockSize=10;
+var widthInBlocks = width / blockSize;
+var heightInBlocks = height / blockSize;
+var score=0
+
+var drawBorder =function () {
+ctx.fillStyle ="Gray";
+ctx.fillRect(0,0, width, blockSize);
+ctx.fillRect(0,height=blockSize, width, blockSize);
+ctx.fillRect(0,0, blockSize, height);
+ctx.fillRect(width=blockSize, 0, blockSize, height);
+
+
+
+</script>
+
+
+<div class="bottom__cookie-block">
+    <p>Продолжая использовать сайт, вы соглашаетесь на сбор файлов cookie</p>
+    <a href="javascript:void(0);" class="ok">Ок</a>
+    <a href="#" class="podr">Подробнее</a>
+</div>
+<div class="header">
+	<h1>Cookie.js Demo</h1>
+</div>
+
+
+<div class="hidden"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+	<script>
+		$(function() {
+		  // Проверяем запись в куках о посещении
+		  // Если запись есть - ничего не происходит
+		     if (!$.cookie('hideModal')) {
+		  // если cookie не установлено появится окно
+		  // с задержкой 5 секунд
+		    var delay_popup = 1000;
+		    setTimeout("document.querySelector('.bottom__cookie-block').style.display='inline-block'", delay_popup);
+		     }
+		     $.cookie('hideModal', true, {
+		   // Время хранения cookie в днях
+		    expires: 30,
+		    path: '/'
+		   });
+		});
+		 
+		// Закрытие полосы cookie
+		 
+		 
+		$('.ok').click(function(){
+		    $('.bottom__cookie-block').fadeOut();
+		});
+	</script>
+
+
+
+
+<!--Footer Links -->
+<!--https://mdbootstrap.com/education/bootstrap/landing-page-lesson-9/-->
+<div class="container mt-5 mb-4 text-center text-md-left">
+    <div class="row mt-3">
+
+        <!--First column-->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+            <h6 class="text-uppercase font-weight-bold">
+                <strong>Company name</strong>
+            </h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit.</p>
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">
+                <strong>Products</strong>
+            </h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+                <a href="#!">MDBootstrap</a>
+            </p>
+            <p>
+                <a href="#!">MDWordPress</a>
+            </p>
+            <p>
+                <a href="#!">BrandFlow</a>
+            </p>
+            <p>
+                <a href="#!">Bootstrap Angular</a>
+            </p>
+        </div>
+        <!--/.Second column-->
+
+        <!--Third column-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">
+                <strong>Useful links</strong>
+            </h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+                <a href="#!">Your Account</a>
+            </p>
+            <p>
+                <a href="#!">Become an Affiliate</a>
+            </p>
+            <p>
+                <a href="#!">Shipping Rates</a>
+            </p>
+            <p>
+                <a href="#!">Help</a>
+            </p>
+        </div>
+        <!--/.Third column-->
+
+        <!--Fourth column-->
+        <div class="col-md-4 col-lg-3 col-xl-3">
+            <h6 class="text-uppercase font-weight-bold">
+                <strong>Contact</strong>
+            </h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+                <i class="fas fa-home  mr-3"></i> New York, NY 10012, US</p>
+            <p>
+                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p>
+                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p>
+                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+        </div>
+        <!--/.Fourth column-->
+
+    </div>
+</div>
+<!--/.Footer Links-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>
